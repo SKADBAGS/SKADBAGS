@@ -1,0 +1,80 @@
+/* Fundo preto e centralização */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+#container {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 1em;
+    color: #ccc;
+}
+
+/* Links principais */
+ul.links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+ul.links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+ul.links li a:hover {
+    background-color: #555;
+}
+
+/* Links sociais */
+.social-links a {
+    color: #fff;
+    font-size: 1.2em;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #aaa;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #888;
+}
